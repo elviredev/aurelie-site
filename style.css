@@ -1,0 +1,131 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    /* overflow-y: hidden; */
+    font-family: 'Raleway', sans-serif;
+    opacity: 0;
+}
+
+.intro-container {
+    height: 130vh;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#make-me-cool {
+    height: 130vh;
+    width: 100%;
+    position: absolute;
+}
+
+/* ****************************************** */
+/* *************** NAVIGATION *************** */
+/* ****************************************** */
+
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 3;
+    /* background: rgba(171,155,139, 0.3); */
+}
+
+.item {
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #f1f1f1;
+    z-index: 3;
+    
+}
+
+.item a {
+    text-decoration: none;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* ****************************************** */
+/* *************** ACCUEIL ****************** */
+/* ****************************************** */
+
+.accueil-container {
+    height: 130vh;
+    width: 100%;
+    /* position: relative; */
+}
+
+.bloc-titre {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 25%;
+    left: 5%;
+}
+
+.bloc-titre h1 {
+    font-size: 100px;
+    letter-spacing: 2.5px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-shadow: 0 0 10px rgb(49, 49, 49);
+    color: #f1f1f1;
+    opacity: 1;
+    position: relative;
+    z-index: 3;
+}
+
+.sous-titre {
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #f1f1f1;
+    text-shadow: 0 0 10px rgb(49, 49, 49);
+    margin: 20px 0;
+    opacity: 1;
+    position: relative;
+}
+
+.bloc-titre span {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #f1f1f1;
+    position: relative;
+    opacity: 1;
+}
+
+/* ****************************************** */
+/* *************** PRÉSENTATION ************* */
+/* ****************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
