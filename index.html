@@ -18,41 +18,77 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@100;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="intro-container">
-        <canvas id="make-me-cool"></canvas>
-      
-        <!-- NAVIGATION -->
+      <canvas id="make-me-cool"></canvas>
 
-      <div class="menu-container">
-        <div class="item item1">
-            <a href="#accueil">Accueil</a>
+      <!-- NAVIGATION -->
+
+      <nav class="nav">
+        <div class="menu-container">
+          <div class="bloc-titre">
+            <h1>
+              <span class="nom">Aurélie Lalart</span>
+              <span class="job">Psychologue du travail</span>
+            </h1>
+          </div>
+
+          <ul>
+            <li class="item-nav"><a href="#accueil">Accueil</a></li>
+            <li class="item-nav"><a href="#presentation">Présentation</a></li>
+            <li class="item-nav"><a href="#entreprises">Entreprises</a></li>
+            <li class="item-nav"><a href="#particuliers">Particuliers</a></li>
+            <li class="item-nav"><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-        <div class="item item2">
-            <a href="#presentation">Présentation</a>
-        </div>
-        <div class="item item3">
-            <a href="#services">Services</a>
-        </div>
-        <div class="item item4">
-            <a href="#partenaires">Partenaires</a>
-        </div>
-        <div class="item item5">
-            <a href="#contact">Contact</a>
-        </div>
-      </div>
+      </nav>
 
       <!-- ACCUEIL -->
 
       <div class="accueil-container" id="accueil">
-        <div class="bloc-titre">
-          <h1>Aurélie LALART</h1>
-          <p class="sous-titre">Psychologue du travail</p>
-          <span>Diplômée du CNAM Paris</span>
+        <div class="card-container">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-front">
+                <h2>Offre de services</h2>
+                <p class="card-text">Entreprises</p>
+                <i class="arrow-icon fas fa-arrow-right"></i>
+              </div>
+              <div class="card-back">
+                <p>Bilans de compétences</p>
+                <p>Accompagnement Collectif</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn">Voir Plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-front front-particulier">
+                <h2>Offre de services</h2>
+                <p class="card-text">Particuliers</p>
+                <i class="arrow-icon fas fa-arrow-right"></i>
+              </div>
+              <div class="card-back back-particulier">
+                <p>Bilans de compétences</p>
+                <p>Accompagnement Collectif</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn">Voir Plus</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
+      <!-- intro-container end -->
     </div>
 
     <!-- SECTION PRÉSENTATION -->
@@ -114,7 +150,6 @@
         repudiandae totam ex cupiditate ipsam, quas dolorum aliquid provident
         deserunt!
       </p>
-     
     </section>
 
     <script src="https://unpkg.com/thpace"></script>
