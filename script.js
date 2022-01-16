@@ -29,3 +29,23 @@ window.onload = function () {
     // .from('.bloc-titre span', 0.9, {opacity: 0, right: "200%"}, 1)
     .staggerFrom('.item-nav', 0.3, { y: 50, opacity: 0 }, 0.3)
 }
+
+// MENUM HAMBURGER
+const btnMenu = document.querySelector('.logo-menu')
+const menu = document.querySelector('.liste-nav')
+const allLinks = document.querySelectorAll('.item-nav')
+const blocTitre = document.querySelector('.bloc-titre')
+
+btnMenu.addEventListener('click', () => {
+  menu.classList.toggle('active')
+})
+
+if (menu.classList.contains('active')) {
+  blocTitre.style.display = 'none'
+}
+
+allLinks.forEach((item) => {
+  item.addEventListener('click', () => {
+    menu.classList.toggle('active')
+  })
+})

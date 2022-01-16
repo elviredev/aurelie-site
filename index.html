@@ -6,18 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aurélie Site</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@100;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -33,7 +21,7 @@
       <!-- NAVIGATION -->
 
       <nav class="nav">
-        <div class="menu-container">
+        <div class="container">
           <div class="bloc-titre">
             <h1>
               <span class="nom">Aurélie Lalart</span>
@@ -41,7 +29,7 @@
             </h1>
           </div>
 
-          <ul>
+          <ul class="liste-nav">
             <li class="item-nav"><a href="#accueil">Accueil</a></li>
             <li class="item-nav"><a href="#presentation">Présentation</a></li>
             <li class="item-nav"><a href="#entreprises">Entreprises</a></li>
@@ -49,44 +37,48 @@
             <li class="item-nav"><a href="#contact">Contact</a></li>
           </ul>
         </div>
+        <img src="ressources/menu.svg" alt="logo menu" class="logo-menu" />
       </nav>
 
       <!-- ACCUEIL -->
 
-      <div class="accueil-container" id="accueil">
-        <div class="card-container">
-          <div class="card-wrapper">
-            <div class="card">
-              <div class="card-front">
-                <h2>Offre de services</h2>
-                <p class="card-text">Entreprises</p>
-                <i class="arrow-icon fas fa-arrow-right"></i>
-              </div>
-              <div class="card-back">
-                <p>Bilans de compétences</p>
-                <p>Accompagnement Collectif</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">Voir Plus</a>
+      <section class="accueil" id="accueil">
+        <div class="container">
+          <h3>Aurélie Lalart, psychologue du travail</h3>
+          <div class="accueil-grid">
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="card-front">
+                  <h2>Offre de services</h2>
+                  <p class="card-text">Entreprises</p>
+                  <i class="arrow-icon fas fa-arrow-right"></i>
+                </div>
+                <div class="card-back">
+                  <p>Bilans de compétences</p>
+                  <p>Accompagnement Collectif</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <a href="#">Voir Plus</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card-wrapper">
-            <div class="card">
-              <div class="card-front front-particulier">
-                <h2>Offre de services</h2>
-                <p class="card-text">Particuliers</p>
-                <i class="arrow-icon fas fa-arrow-right"></i>
-              </div>
-              <div class="card-back back-particulier">
-                <p>Bilans de compétences</p>
-                <p>Accompagnement Collectif</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn">Voir Plus</a>
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="card-front front-particulier">
+                  <h2>Offre de services</h2>
+                  <p class="card-text">Particuliers</p>
+                  <i class="arrow-icon fas fa-arrow-right"></i>
+                </div>
+                <div class="card-back back-particulier">
+                  <p>Bilans de compétences</p>
+                  <p>Accompagnement Collectif</p>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <a href="#">Voir Plus</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- intro-container end -->
     </div>
