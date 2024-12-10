@@ -1,13 +1,12 @@
-# Responsive Construction Website
-## [Watch it on youtube](https://youtu.be/IOyZO_l94ME)
-### Responsive Construction Website
+# Responsive Website
+## HTML - CSS - Javascript
+### Site Pro pour Aurélie
 
-- Responsive Construction Website Design Using HTML CSS And JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Contient des animations lors du scrolling.
+- Smooth scrolling pour chaque section.
+- Développé d'abord avec la méthodologie Mobile First, puis pour ordinateur.
+- Compatible avec toutes les tailles d'écran.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
 
-![preview img](/preview.png)
+
+
