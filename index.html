@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+   <html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--      <meta name="description" content="Aurélie Lalart Psychologue du travail diplômée du CNAM Paris, consultations à la maison de santé de Villemandeur et en entreprise. Gestion du stress, prévention du burn-out, médiation, gestion des conflits..." >-->
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+     <link rel="preload" href="assets/css/style.css" as="style">
+      <link rel="stylesheet" href="assets/css/style.css">
+
+      <!--=============== MAPBOX ===============-->
+     <link
+       href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css"
+       rel="stylesheet"
+     />
+     <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+
+     <!--=============== MAIN JS ===============-->
+     <script defer src="assets/js/main.js"></script>
+
+      <title>Aurélie LALART | Psychologue du Travail diplômée CNAM Paris</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+           <!-- Logo -->
+           <a href="#" class="nav__logo">
+             <!-- <i class="ri-flower-line"></i>-->
+             <img src="assets/img/lotus.png" alt="Logo Fleur de Lotus Rose">
+             <span class="nav__logo-text">
+               <span>Aurélie Lalart</span>
+              <span>Psychologue du Travail</span>
+             </span>
+           </a>
+           <!-- Menu -->
+           <div class="nav__menu" id="nav-menu">
+             <ul class="nav__list">
+               <li>
+                 <a href="#home" class="nav__link active-link">Accueil</a>
+               </li>
+               <li>
+                 <a href="#about" class="nav__link">À Propos</a>
+               </li>
+               <li>
+                 <a href="#services" class="nav__link">Services</a>
+               </li>
+               <li>
+                 <a href="#specialisations" class="nav__link">Spécialisations</a>
+               </li>
+               <li hidden>
+                 <a href="#testimonials" class="nav__link">Vos Avis</a>
+               </li>
+               <li>
+                 <a href="#price" class="nav__link">Tarifs</a>
+               </li>
+               <li>
+                 <a href="#contact" class="nav__link button">Contact</a>
+               </li>
+             </ul>
+
+             <!-- Close Button -->
+             <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+             </div>
+           </div>
+
+           <!-- Toggle Menu -->
+           <div class="nav__toggle" id="nav-toggle">
+             <i class="ri-apps-2-line"></i>
+           </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+           <!-- Lignes verticales en background -->
+           <img src="assets/img/home-lines-bg.svg" alt="lignes verticales gris clair" class="home__lines">
+
+           <!-- Home Content -->
+            <div class="home__container container grid">
+              <div class="home__content grid">
+                <!-- Home Data -->
+                <div class="home__data">
+                  <h1 class="home__title">
+                    Aurélie Lalart <br>
+                    Psychologue <br>
+                    du Travail
+                  </h1>
+
+                  <p class="home__description">
+                    Découvrez une approche humaine et bienveillante pour retrouver
+                    équilibre et épanouissement au travail.
+                  </p>
+
+                  <div class="home__buttons">
+                    <a href="https://www.doctolib.fr/" target="_blank" class="button">Prendre RDV</a>
+                    <a href="#services" class="button__link">
+                      <span>Mes Services</span>
+                      <i class="ri-arrow-right-line"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Home Infos -->
+                <div class="home__info">
+                  <div>
+                    <h3 class="home__info-title">3+</h3>
+                    <p class="home__info-description">Ans et plus <br>d'Experience</p>
+                  </div>
+
+                  <div>
+                    <h3 class="home__info-title">150</h3>
+                    <p class="home__info-description">Suivis<br> individuels & collectifs</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Home Images -->
+              <div class="home__images">
+                <img src="assets/img/home_img_1.jpg" alt="cour intérieure japonaise" class="home__img-1">
+                <img src="assets/img/home_img_2.jpg" alt="cour intérieure japonaise" class="home__img-2">
+              </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+              <!-- About Data -->
+              <div class="about__data">
+                <span class="section__subtitle">À PROPOS</span>
+
+                <h2 class="section__title">Vers un équilibre <br> professionnel</h2>
+
+                <p class="about__description">
+                  Je suis Aurélie Lalart, psychologue du travail passionnée, dédiée à accompagner les professionnels dans leur épanouissement personnel et professionnel. Forte de plusieurs années d'expérience, j'allie écoute active et méthodologie adaptée pour répondre à vos besoins uniques.
+                </p>
+                <!-- Liste Items -->
+                <ul class="about__list grid">
+                  <li class="about__list-item">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <span>Accompagnement personnalisé :
+                      <span class="about__list-item-small">Une approche sur mesure adaptée à chaque individu.</span>
+                    </span>
+                  </li>
+                  <li class="about__list-item">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <span>Écoute active :
+                      <span class="about__list-item-small">Comprendre vos besoins en profondeur.</span>
+                    </span>
+                  </li>
+
+                  <li class="about__list-item">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <span>Gestion du stress :
+                      <span class="about__list-item-small">Techniques éprouvées pour un meilleur équilibre.</span>
+                    </span>
+                  </li>
+                  <li class="about__list-item">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <span>Résolution de conflits :
+                      <span class="about__list-item-small">Stratégies efficaces pour améliorer les relations au travail.</span>
+                    </span>
+                  </li>
+                </ul>
+
+                <a href="#specialisations" class="button">Mes Spécialisations</a>
+              </div>
+
+              <!-- About Image Box -->
+              <div class="about__img-box">
+                <figure>
+                  <img src="assets/img/aurelie.jfif" alt="Aurélie Lalart" class="about__img">
+                  <figcaption>Source : Salon Preventica - Lyon Oct. 2024</figcaption>
+                </figure>
+                <div class="about__img-cover"></div>
+                <div class="about__play-btn-wrap">
+                  <button type="button" class="about__play-btn" id="about-play-btn" aria-label="Icone Play Vidéo">
+                    <i class="ri-play-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+          <div class="services__container container grid">
+            <div class="services__data">
+              <div>
+                <span class="section__subtitle">MES SERVICES</span>
+                <h2 class="section__title">Des réponses <br> à vos besoins</h2>
+              </div>
+
+              <p class="services__description">
+                Un accompagnement complet pour mieux vivre votre quotidien professionnel
+                et atteindre vos objectifs.
+              </p>
+
+              <a href="https://www.doctolib.fr/" target="_blank" class="button">Prendre RDV</a>
+            </div>
+
+            <div class="services__swiper swiper">
+              <div class="swiper-wrapper">
+                <article class="services__card swiper-slide">
+                  <div class="services__icon">
+                    <i class="ri-psychotherapy-line"></i>
+                  </div>
+                  <h3 class="services__title">Développement <br> personnel</h3>
+                  <p>Bien-être et lâcher-prise, confiance et estime de soi, gestion des émotions, projet et reconversion professionnels</p>
+                </article>
+
+                <article class="services__card swiper-slide">
+                  <div class="services__icon">
+                    <i class="ri-group-3-line"></i>
+                  </div>
+                  <h3 class="services__title">Accompagnements <br> spécifiques</h3>
+                  <p>Gestion du stress professionnel ou personnel, Troubles de l'anxiété...</p>
+                </article>
+
+                <article class="services__card swiper-slide">
+                  <div class="services__icon">
+                    <i class="ri-hospital-line"></i>
+                  </div>
+                  <h3 class="services__title">Intervention en <br> Entreprise</h3>
+                  <p>Prévention des risques psychosociaux, amélioration de la qualité et des conditions de travail (QVCT), éviter l'épuisement professionnel...</p>
+                </article>
+
+                <article class="services__card swiper-slide">
+                  <div class="services__icon">
+                    <i class="ri-building-4-line"></i>
+                  </div>
+                  <h3 class="services__title">Formations et <br> ateliers</h3>
+                  <p>Des sessions pour développer vos compétences et prévenir les risques psychosociaux.</p>
+                </article>
+
+                <article class="services__card swiper-slide">
+                  <div class="services__icon">
+                    <i class="ri-calendar-2-line"></i>
+                  </div>
+                  <h3 class="services__title">Séances <br> sur rendez-vous</h3>
+                  <p>Un format flexible : en présentiel ou en visio sur rendez-vous.</p>
+                </article>
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-line"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-line"></i>
+            </div>
+          </div>
+
+           <div class="services__shape"></div>
+         </section>
+
+         <!--==================== SPECIALISATIONS ====================-->
+         <section class="specialisations section" id="specialisations">
+           <span class="section__subtitle">MES SPÉCIALISATIONS</span>
+           <h2 class="section__title">Des solutions <br> personnalisées</h2>
+
+           <div class="specialisations__container container grid">
+              <article class="specialisations__card">
+                <img src="assets/img/spec-1-1.jpeg" alt="groupe de personnes sur une montagne" class="specialisations__img">
+
+                <div class="specialisations__data">
+                  <span>Épanouissement personnel</span>
+                  <h2 class="specialisations__title">Gestion du stress et de l’anxiété</h2>
+                  <span class="specialisations__date">24 mars 2024</span>
+                  <p>
+                    Accompagner les professionnels dans la maîtrise des situations stressantes.
+                  </p>
+                </div>
+              </article>
+
+              <article class="specialisations__card">
+                <img src="assets/img/spec-2.jpeg" alt="paysage zen" class="specialisations__img">
+
+                <div class="specialisations__data">
+                   <span>Gestion des risques</span>
+                   <h2 class="specialisations__title">Prévention du burn-out</h2>
+                   <span class="specialisations__date">23 juin 2024</span>
+                   <p>
+                     Identifier les signaux d’alerte et agir avant qu’il ne soit trop tard.
+                   </p>
+                 </div>
+              </article>
+
+              <article class="specialisations__card">
+               <img src="assets/img/spec-3.jpeg" alt="groupe de personnes souriantes" class="specialisations__img">
+
+               <div class="specialisations__data">
+                 <span>Gestion des conflits</span>
+                 <h2 class="specialisations__title">Amélioration des relations professionnelles</h2>
+                 <span class="specialisations__date">22 juillet 2024</span>
+                 <p>
+                   Optimiser la communication et résoudre les conflits au travail.
+                 </p>
+               </div>
+              </article>
+          </div> 
+         </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonials section" id="testimonials">
+          <div class="container">
+            <span class="section__subtitle">VOS AVIS</span>
+            <h2 class="section__title">Derniers témoignages</h2>
+
+            <div class="testimonials__container grid">
+              <div class="testimonials__image-box grid">
+                <img src="assets/img/testimonials.jpeg" alt="groupe de personnes" class="testimonials__img">
+              </div>
+
+              <div class="testimonials__swiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="testimonials__card swiper-slide">
+                    <div class="testimonials__rating">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                    </div>
+
+                    <div class="testimonials__text">
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores magni tempora veritatis! Ex, quaerat voluptatem. At pariatur quam vitae voluptas."</p>
+                    </div>
+
+                    <div class="testimonials__author">
+                      <img src="assets/img/profile.png" alt="avatar profil">
+                      <div class="testimonials__author-info">
+                        <h3>Sandrine R</h3>
+                        <p>Patiente régulière</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="testimonials__card swiper-slide">
+                    <div class="testimonials__rating">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-line"></i>
+                    </div>
+
+                    <div class="testimonials__text">
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores magni tempora veritatis! Ex, quaerat voluptatem. At pariatur quam vitae voluptas."</p>
+                    </div>
+
+                    <div class="testimonials__author">
+                      <img src="assets/img/profile.png" alt="avatar profil">
+                      <div class="testimonials__author-info">
+                        <h3>Denis H</h3>
+                        <p>Patient régulier</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="testimonials__card swiper-slide">
+                    <div class="testimonials__rating">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                    </div>
+
+                    <div class="testimonials__text">
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores magni tempora veritatis! Ex, quaerat voluptatem. At pariatur quam vitae voluptas."</p>
+                    </div>
+
+                    <div class="testimonials__author">
+                      <img src="assets/img/profile.png" alt="avatar profil">
+                      <div class="testimonials__author-info">
+                        <h3>Lilas C</h3>
+                        <p>Nouvelle patiente</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Navigation buttons -->
+              <div class="swiper-pagination testimonials__pagination"></div>
+            </div>
+          </div>
+
+          <div class="testimonials__shape"></div>
+        </section>
+
+        <!--==================== TARIFS ====================-->
+        <section class="price section" id="price">
+          <span class="section__subtitle">MES TARIFS</span>
+          <h2 class="section__title">Des prestations <br> sur mesure</h2>
+
+          <div class="price__container container grid">
+            <article class="price__card">
+              <div class="price__header">
+                <h3 data-text="consultation individuelle"><span>consultation individuelle</span></h3>
+                <div class="price__header-price">55€ <span>la séance</span></div>
+              </div>
+              <div class="price__body">
+                <ul>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                </ul>
+              </div>
+              <div class="price__footer">
+                <a href="https://www.doctolib.fr/" class="button">Prendre RDV</a>
+              </div>
+            </article>
+
+            <article class="price__card">
+              <div class="price__header">
+                <h3 data-text="en entreprise"><span>en entreprise</span></h3>
+                <div class="price__header-price">Sur devis</div>
+              </div>
+              <div class="price__body">
+                <ul>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                </ul>
+              </div>
+              <div class="price__footer">
+                <a href="https://www.doctolib.fr/" class="button">Prendre RDV</a>
+              </div>
+            </article>
+
+            <article class="price__card">
+              <div class="price__header">
+                <h3 data-text="médiation"><span>médiation</span></h3>
+                <div class="price__header-price">Sur devis</div>
+              </div>
+              <div class="price__body">
+                <ul>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                  <li>
+                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit.
+                  </li>
+                </ul>
+              </div>
+              <div class="price__footer">
+                <a href="https://www.doctolib.fr/" class="button">Prendre RDV</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="container">
+              <span class="section__subtitle">CONTACTEZ MOI</span>
+              <h2 class="section__title">Prenez rendez-vous facilement</h2>
+
+              <div class="contact__container grid">
+                <div class="contact__map">
+                  <div id="map"></div>
+                </div>
+                <div class="contact__data grid">
+                  <div class="contact__card">
+                    <div class="contact__icon">
+                      <i class="ri-map-pin-2-line"></i>
+                    </div>
+
+                    <h3 class="contact__title">Adresse</h3>
+                    <address class="contact__info">
+                      Maison de Santé <br>
+                      1, rue Maurice Prevost
+                      45700 Villemandeur <br>
+                      <span class="contact__info-horaires">
+                        Le Mercredi 09h - 17h
+                      </span>
+                    </address>
+                  </div>
+
+                  <div class="contact__card">
+                    <div class="contact__icon">
+                      <i class="ri-phone-line"></i>
+                    </div>
+
+                    <h3 class="contact__title">Téléphone</h3>
+                    <address class="contact__info">
+                      +33 6 XX XX XX XX <br>
+                      +33 6 XX XX XX XX
+                    </address>
+                  </div>
+
+                  <div class="contact__card">
+                    <div class="contact__icon">
+                      <i class="ri-mail-line"></i>
+                    </div>
+
+                    <h3 class="contact__title">Mail</h3>
+                    <address class="contact__info">
+                      contact@example.com
+                    </address>
+                  </div>
+
+                  <div class="contact__card">
+                    <div class="contact__icon">
+                      <i class="ri-message-3-line"></i>
+                    </div>
+
+                    <h3 class="contact__title">Social</h3>
+
+                    <div class="contact__social">
+                      <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="contact__social-link" aria-label="Icone Whatsapp">
+                        <i class="ri-whatsapp-line"></i>
+                      </a>
+
+                      <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link"  aria-label="Icone Linkedin">
+                        <i class="ri-linkedin-box-line"></i>
+                      </a>
+
+                      <a href="https://www.instagram.com/" target="_blank" class="contact__social-link"  aria-label="Icone Instagram">
+                        <i class="ri-instagram-line"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </section>
+
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__container container grid">
+          <div>
+            <a href="#" class="nav__logo">
+              <!-- <i class="ri-flower-line"></i>-->
+              <img src="assets/img/lotus.png" alt="Logo Fleur de Lotus Rose">
+              <span class="nav__logo-text">
+               <span>Aurélie Lalart</span>
+              <span>Psychologue du Travail</span>
+             </span>
+            </a>
+            <p class="footer__description">
+              Prévenir les risques psychosociaux et <br>
+              les violences au travail.
+            </p>
+            <address class="footer__email">Email: aurelie.lalart@example.com</address>
+          </div>
+
+          <div class="footer__content grid">
+            <div>
+              <h3 class="footer__title">mieuxautravail.fr</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a href="#about"  class="footer__link">À Propos</a>
+                </li>
+
+                <li>
+                  <a href="#services"  class="footer__link">Services</a>
+                </li>
+
+                <li>
+                  <a href="#specialisations"  class="footer__link">Spécialisations</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Consultations</h3>
+
+              <ul class="footer__list">
+                <li>
+                  <address class="footer__info">Maison de Santé <br> 1, rue Maurice Prevost <br> 45700 Villemandeur</address>
+                </li>
+
+                <li>
+                  <address class="footer__info">Mercredi 9h00 - 17h00</address>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Réseaux Sociaux</h3>
+              <div class="footer__social">
+                <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="footer__social-link"  aria-label="Icone whatsapp">
+                  <i class="ri-whatsapp-line"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" class="footer__social-link"  aria-label="Icone Linkedin">
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link"  aria-label="Icone Instagram">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <span class="footer__copy">&#169; 2024 | Tous droits réservés par EWS</span>
+      </footer>
+
+      <!--==================== VIDEO POPUP ====================-->
+      <div class="about__video" id="about-video">
+        <div class="about__video-inner">
+          <button type="button" class="about__video-close" id="about-video-close">
+            <i class="ri-close-large-line"></i>
+          </button>
+
+          <div class="about__video-iframe-box">
+            <iframe
+              src="https://www.youtube.com/embed/biP5GfMZvGY?si=xRRV4eVlhI8UbWbl"
+              class="about__video-iframe"
+              id="about-video-iframe"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up"  aria-label="Icone Flêche vers le haut">
+        <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+
+
+
+   </body>
+</html>

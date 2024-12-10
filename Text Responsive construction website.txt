@@ -1,0 +1,199 @@
+https://www.youtube.com/watch?v=IOyZO_l94ME&t=131s
+57:37
+
+Vidéos aurélie : https://youtu.be/biP5GfMZvGY?si=MzH6NJ7uLpa1_aed
+Site avec video :
+  ElvStudy (Multi pages)
+  X-Gym
+
+
+========== HEADER ==========
+.nav__logo
+Aurélie Lalart - Psychologue
+
+.nav__link
+Accueil - À Propos - Services - Spécialisations - Avis - Contact
+
+
+========== HOME ==========
+.home__title
+Aurélie Lalart <br> 
+Psychologue du <br> 
+Travail
+
+.home__description
+Découvrez une approche humaine et bienveillante pour retrouver équilibre et épanouissement au travail.
+
+.button
+Prendre RDV
+
+.button__link
+Services
+
+.home__info-title .home__info-description
+3+
+Ans d'<br> Experience
+
+150
+Accompagnements<br> Soutiens
+
+
+========== ABOUT ==========
+.section__subtitle
+À PROPOS
+
+.section__title
+Une expertise dédiée à votre bien-être <br> et à votre développement professionnel.
+
+.about__description
+Je suis Aurélie Lalart, psychologue du travail passionnée, dédiée à accompagner les professionnels dans leur épanouissement personnel et professionnel. Forte de plusieurs années d'expérience, j'allie écoute active et méthodologie adaptée pour répondre à vos besoins uniques.
+
+.about__list-item span
+Écoute active : Comprendre vos besoins en profondeur.
+Accompagnement personnalisé : Une approche sur mesure adaptée à chaque individu.
+Gestion du stress : Techniques éprouvées pour un meilleur équilibre.
+Résolution de conflits : Stratégies efficaces pour améliorer les relations au travail.
+
+.button
+Prendre RDV
+
+
+========== SERVICES ==========
+.section__subtitle
+Mes Services
+
+.section__title
+Des solutions adaptées à vos besoins <br> pour relever les défis du monde du travail.
+
+.services__description
+Un accompagnement complet pour mieux vivre votre quotidien professionnel 
+et atteindre vos objectifs.
+
+.button
+Prendre RDV
+
+.services__title
+<i class="ri-hospital-line"></i>
+Développement <br> personnel
+.services__card p
+Bien-être et lâcher-prise, confiance et estime de soi, gestion des émotions, projet et reconversion professionnels
+
+services__title
+<i class="ri-group-3-line"></i>
+Accompagnements <br> spécifiques
+.services__card p
+Gestion du stress professionnel ou personnel, Troubles de l'anxiété...
+
+services__title
+<i class="ri-psychotherapy-line"></i>
+Intervention en <br> Entreprise
+.services__card p
+Prévention des risques psychosociaux, amélioration de la qualité et des conditions de travail (QVCT), éviter l'épuisement professionnel...
+
+services__title
+<i class="ri-building-4-line"></i>
+Formation et <br> ateliers
+.services__card p
+Des sessions pour développer vos compétences et prévenir les risques psychosociaux.
+
+services__title
+<i class="ri-calendar-2-line"></i>
+Séances <br> Sur rendez-vous
+.services__card p
+Un format flexible : en présentiel ou en visio sur rendez-vous.
+
+-----
+Spéc Thérapeute de Soutien:
+Anxiété, stress, Burn-Out, Psychologie et Management, Travail
+
+Spécialités Thérapie Comportementale:
+Gestion des émotions, Lâcher prise, Travail
+
+========== PROJECTS ==========
+.section__subtitle
+MES SPÉCIALISATIONS
+
+.section__title
+Parce que chaque situation est unique <br> je mets mon expertise au service de vos priorités.
+
+.projects__data span .projects__title .projects__data .projects__data p
+Épanouissement personnel.
+Gestion du stress et de l’anxiété
+January 15, 2024
+Accompagner les professionnels dans la maîtrise des situations stressantes.
+
+Gestion des risques
+Prévention du burn-out
+May 21, 2024
+Identifier les signaux d’alerte et agir avant qu’il ne soit trop tard.
+
+Gestion des conflits
+Amélioration des relations professionnelles
+July 03, 2024
+Optimiser la communication et résoudre les conflits au travail.
+
+Construction of a two-story house with columns, 
+foundations, floor, ceilings and others.
+
+========== TESTIMONIALS ==========
+sites avec avis : Usapia Resto, Apsara
+
+========== CONTACT ==========
+.section__subtitle
+CONTACTEZ MOI
+
+.section__title
+Un simple message suffit pour commencer à construire un avenir professionnel serein.
+Contactez-moi dès aujourd'hui
+Prenez rendez-vous facilement
+Write To Us & Build
+
+.contact__title .contact__info
+Adresse
+123, Rue de l'Équilibre <br>
+45 Villemandeur
+
+Téléphone
++33 6 XX XX XX XX <br>
++33 6 XX XX XX XX
+
+Mail
+contact@example.com
+
+Réseaux sociaux
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+https://www.linkedin.com/
+https://www.instagram.com/
+
+Ajouter une map
+Site avec Map : Workews (voir template html dans Laravel, job-details.html & mapbox-setup.md) - MapBox
+
+========== FOOTER ==========
+.footer__logo span
+Aurélie Lalart
+
+.footer__description
+Prévenir les risques psychosociaux et <br>
+les violences au travail.
+
+.footer__email
+Email: aurelie.lalart@example.com
+
+.footer__title .footer__link .footer__info
+Company
+ À Propos
+ Services
+ Spécialisations
+
+Informations
+123, Rue de l'Équilibre <br>
+45 Villemandeur
+9h00 - 12h00
+
+Réseaux Sociaux
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+.footer__copy
+&#169; Tous droits réservés par EWS
