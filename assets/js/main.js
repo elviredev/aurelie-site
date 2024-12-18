@@ -89,12 +89,13 @@ mapboxgl.accessToken =
   "pk.eyJ1IjoiZWx2aXJlZGV2IiwiYSI6ImNtNGJjOGhrZDAyZWYyaXF6dWFzOWpjOGkifQ.3dtEPM4rxJj54jxJof7x5g";
 const map = new mapboxgl.Map({
   container: "map", // container ID
-  center: [2.71494, 47.98918], // Maison de Santé Villemandeur location [lng, lat]
+  // style: 'mapbox://styles/mapbox/streets-v12',
+  center: [2.71205, 47.99073], // Centre de Santé Villemandeur location [lng, lat]
   zoom: 14, // starting zoom
 });
 
-// Add a marker at Maison de Santé Villemandeur 47.989263408079275, 2.714985551909102
-new mapboxgl.Marker().setLngLat([2.71479, 47.98932]).addTo(map);
+// Add a marker at Centre de Santé Villemandeur 
+new mapboxgl.Marker().setLngLat([2.71205, 47.99073]).addTo(map);
 
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
